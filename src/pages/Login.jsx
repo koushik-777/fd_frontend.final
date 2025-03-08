@@ -52,7 +52,7 @@ const Login = () => {
 
     try {
       // Send the token to your backend
-      const backendResponse = await fetch(`${API_URL}/api/users/google-login`, {
+      const backendResponse = await fetch(`${API_URL}/api/user/google-login`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
