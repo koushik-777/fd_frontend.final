@@ -1,0 +1,79 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto; 
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f8f9fa;
+}
+.container-fluid.pt-5 {
+  padding: 2rem 4rem;
+  min-height: auto; 
+  overflow: visible;
+}
+header {
+  background-color: #dc3545;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  text-align: center;
+  position: relative; 
+}
+section {
+  margin-bottom: 4rem;
+}
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: visible;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  padding: 1.5rem;
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #2d3748;
+}
+.card-text {
+  color: #4a5568;
+  line-height: 1.5;
+}
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+.btn-danger:hover {
+  background-color: #c82333;
+}
+footer {
+  background-color: #f8f9fa;
+  color: #4a5568;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}

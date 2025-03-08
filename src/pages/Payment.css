@@ -1,0 +1,53 @@
+.payment-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.payment-container h1,
+.payment-container h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.payment-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.payment-container li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.payment-container form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.payment-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.payment-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-container button:hover {
+  background-color: #218838;
+}
