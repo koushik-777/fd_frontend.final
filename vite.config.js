@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // Change to a relative path
-})
+  base: './', // Make sure this is correct for relative paths
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://foodelivery-backend-final.onrender.com',
+        changeOrigin: true,
+      }
+    }
+  }
+});
